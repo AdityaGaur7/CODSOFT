@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+*{
+    font-family: 'Arvo', serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Gajraj One', cursive;
+font-family: 'Jost', sans-serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    background-color: #f2f5f7;
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+.f{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    width: 100%;
+    height:10vh;
+    background-color:rgb(240, 240, 240) ;
+   position:fixed;
+   top: 0;
+   z-index: 10;
+   border-top-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   box-shadow: 2px 3px 4px rgb(131, 131, 131);
+}
+.navbar{
+    width: 100%;
+}
+li{
+    margin: 1px 2vw;
+}
+li a {
+    color: red;
+}
+li a button{
+    outline: 0;
+    border: 0;
+    color: aliceblue;
+    padding:7px;
+    border-radius: 10px;
+    background-color: rgb(244, 7, 7);
+}
+.cont{
+    
+    margin: auto;
+    width: 100%;
+   margin-top: 5rem;
+    /* background-color: rgb(184, 231, 138); */
+ height: 50rem;
+}
+.box{
+    /* background-color: aquamarine; */
+    background: url('img/girl11.jpeg') no-repeat;
+    background-position: center;
+    background-clip: border-box;
+    background-size: cover;
+    
+    width: 80vw;
+    height: 80vh;
+    transition: .33s ease-in;
+}
+.box img{
+    border-radius: 20px;
+}
+.goal{
+    margin: 3rem 0px;
+    width: 100%;
+    height: 15rem;
+    background-color:rgb(242, 245, 247);
+}
+.l,.r{
+    /* background-color: azure; */
+    width: 30vw;
+    height: 10vh;
+}
+.contribute{
+    width: 100%;
+    height: 10rem;
+    background-color: hsl(0, 99%, 50%);
+}
+.left,.right{
+   /* background-color: azure; */
+   width: 30vw;
+   height: 10vh;
+   margin: 0 2rem;
+}
+.left{
+    font-size: 17px;
+    color: aliceblue;
+}
+.right button{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+}
+.footer{
+    width: 100%;
+    height: 20rem;
+    background-color: rgb(83, 84, 84);
+    color: aliceblue;
+   
+
+}
+.y{
+   margin-top: 30vh;
+
+}
+li:hover{
+    /* text-decoration: underline; */
+    border-bottom: 2px solid red;
+    cursor: pointer;
+}
+i{
+    color: azure;
+    font-size: 23px;
+}
+I:hover{
+    color: rgb(39, 82, 212);
+}
+.c1{
+    margin: 3rem;
+}
+.c1 h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+li{
+    margin:9px;
+}
+
+.copy{
+    text-align: center;
+    font-size: 10px;
+}
+
+.help
+{
+    width: 100%;
+    height: auto;
+    margin: 3rem 0px;
+    background-color:#bebdb9;
+}
+.baya img{
+    width: auto;
+    height: 80vh;
+}
+.daya{
+    position: absolute;
+    left: 50rem;
+
+}
+form{
+    /* background-color: aqua; */
+    padding: 1rem;
+    color: red;
+
+}
+form h2{
+    color: rgb(250, 0, 0);
+}
+form input{
+    border:0;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 15px;
+   
+}
+#a:hover{
+    background-color: rgb(244, 7, 7);
+    color: aliceblue;
+    transition: .35s ease-in;
+}
+form h5{
+    padding: 3px;
+}
+form button{
+    padding: 3px 5px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(247, 11, 11);
+    color: white;
+}
+
+
+.impact{
+    width: 100%;
+   
+    height: 50vh;
+}
+.m{
+    margin-top: 30vh;
+}
+.child{
+    width: 100%;
+    height: 50vh;
+}
+.child img{
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+}
+.programs{
+    width: 100%;
+    height: 60vh;
+}
+.intent{
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+}
+.intent img{
+    width: auto;
+height: 60vh;
+
+}
+.hero{
+    width: 100%;
+    height:50vh;
+    margin: 3rem;
+}
+.txt{
+width: 100%;
+text-align: center;
+}
+.a img{
+    width: auto;
+    height: 33vh;
+    margin-top: -13vh;
+}
+.b{
+    margin-top: -13vh;
+}
+.help-her{
+    width: 100%;
+    margin: 3rem;
+    height: 50vh;
+}
+.a img {
+height: auto;
+width: 30vw;
+
+}
+.girl img{
+    animation: rotate 15s  1s infinite linear ;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.txt h1{
+    color: rgb(255, 166, 0);
+}
+
+.l h1{
+    animation: text 5s  1s infinite linear alternate;
+}
+span{
+    color: rgb(238, 96, 14);
+}
+a button:hover{
+    background-color: red;
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 2px 3px 2px white;
+}
+ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+
+@keyframes text {
+    0%{
+transform: translateX(10vw);
+    }
+    50%{
+        transform: translateX(-10vw);
+    }
+    100%{
+        transform: translateX(10vw);
+    }
+}
+li a button{
+    animation: btn 5s  1s infinite linear ;
+}
+.b p{
+    width: 33vw;
+}
+@keyframes btn {
+  0%{
+        background-color: aliceblue;
+        color: red;
+    }   
+    50%{
+        background-color: rgb(250, 181, 8);
+        color: white;
+    }
+    75%{
+        background-color: rgb(246, 250, 3);
+       color: rgb(31, 12, 244);
+    }
+    100%{
+       background-color: rgb(250, 3, 3);
+       color: rgb(247, 242, 242);
+    }
+}
+a i:hover{
+
+    color: rgb(241, 27, 27);
+}
+.c1 ul li:hover{
+    color: rgb(251, 230, 6);
+}
+.c1 h4{
+font-size: 19px;
+color: rgb(246, 49, 5);
+}
+form button:hover{
+    transform: scale(1.1);
+  
+}
+
+.qr{
+    display: none;
+    height: 36rem;
+    width:57rem;
+    position: absolute;
+    top: 10vh;
+    left:19rem;
+        background-color: antiquewhite;
+     
+
+}
+.code{
+    /* background-color: antiquewhite; */
+    width: rem;
+ 
+    height: 13rem;
+}
+.code img{
+    width:20vw;
+}
+.code h1 button{
+    padding: 2vh;
+    background: #58e2cf;
+    border: 0;
+    transform: translate(89px, -8px);
+        border-radius: 12px;
+}

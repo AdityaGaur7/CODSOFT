@@ -1,0 +1,114 @@
+
+@media (max-width:680px) {
+    
+.nav{
+   
+font-size: 10px;
+}
+.links ul{
+    font-size: 8px;
+margin-left: -2vw;
+}
+.logo img{
+    width: 101px;
+}
+.intent img{
+    width: 87vw;
+    height: 20vh;
+
+}
+.programs {
+    width: 100%;
+    height: 15rem;
+}
+.right p{
+    font-size: 10px;
+    margin: -3vh;
+}
+.left h3{
+    font-size: 10px;
+}
+.c1 li{
+    font-size: 10px;
+}
+.hero{
+    width: auto;
+    height: 218px;
+
+}
+.right{
+    margin-top: -37vh;
+}
+.right p{
+    font-size: 10px;
+}
+.right a button{
+    transform: translateY(10rem);
+}
+.r h4{
+    font-size: 15px;
+    /* width: 10rem; */
+
+}
+.b p{
+    font-size: 10px;
+    width: 12rem;
+   margin-top: 4rem;
+}
+.help-her{
+    /* height: 25vh; */
+    width: 87vw;
+}
+.c1{
+    padding: -10vw;
+}
+.copy h2{
+    font-size: 10px;
+    width: 80%;
+    margin: auto;
+
+}
+.refer{
+    margin-right: 35vw;
+}
+
+.foot .logo {
+    visibility: hidden;
+}
+#rte img{
+    width: 99vw;
+    height: 40vh;
+}
+
+.foot{
+margin-bottom: -2vh;
+/* height: 70vh; */
+}
+
+
+
+
+
+}
+@media (max-width:380px) {
+    .right{
+        margin-left: -3vw;
+    }
+    .b p{
+        font-size: 7px;
+    }
+    .refer{
+        margin-left: -6vw;
+    }
+    .right a button{
+        transform: translateY(8rem);
+    }
+ .links ul li a {
+    font-size: 10px;
+ }
+ #lgimg img{
+    width: 15vw;
+}
+
+ 
+}
