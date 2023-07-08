@@ -1,0 +1,74 @@
+@media (max-width:680px) {
+
+
+    .right{
+        height: 15rem;
+        font-size: 5px;
+    }
+   
+    .line1 p{
+        font-size: 10px;
+        text-align: center;
+    }
+    .einstein img{
+        height: 10rem;
+    }
+    .info h3{
+        font-size: 13px;
+    }
+    .left img{
+        height: 8rem;
+    }
+    .right h1{
+        font-size: 15px;
+        width: 50vw;
+    }
+    .right p{
+        font-size: 9px;
+    }
+    #bhole img{
+        height: auto;
+        width: 8rem;
+    }
+    .quote{
+        height: 75rem;
+        width: 104%;
+
+    }
+    .txt p{
+        font-size: 13px;
+        text-align: center;
+        margin: 1rem 0px;
+    }
+    .txt h1{
+        font-size: 23px;
+        text-align: center;
+    }
+    ul li{
+        list-style-type: square;
+        font-size: 15px;
+        margin: 0px 2rem ;
+    }
+.foot{
+    text-align: center;
+
+}
+
+}
+
+@media (max-width:395px) {
+    .foot{
+        height: 6rem;
+    }
+}
+@media (max-width:380px) {
+    .quote{
+        height: 80rem;
+    }
+    .header{
+        height: 10rem;
+    }
+    .info h3{
+        font-size: 11px;
+    }
+}
